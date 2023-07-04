@@ -10,8 +10,7 @@
     "test": "vitest"
   },
   "files": [
-    "es",
-    "lib"
+    "dist"
   ],
   "exports": {
     ".": {
