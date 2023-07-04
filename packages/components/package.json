@@ -1,0 +1,29 @@
+{
+  "name": "@yue7872/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "vite build --watch",
+    "test": "vitest"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.umd.cjs",
+      "import": "./dist/index.js"
+    },
+    "./style": "./dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@yue7872/utils": "workspace:^"
+  }
+}
